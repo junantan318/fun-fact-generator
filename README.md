@@ -14,7 +14,9 @@ Frontend: HTML
 
 <img width="1336" height="606" alt="funfact drawio" src="https://github.com/user-attachments/assets/07c5d0bb-7c7c-4d31-93d1-e39a3be76c20" />
 
-The user utilize AWS amplify to host the frontend side of the application and deployment of it. The user then clicks on the 'generate fun fact' button to trigger an api call through api gateway. Once api gateway receives the call , it triggers the event hosted by aws lambda. Lambda function fetches the data from dynamo DB. Lambda also fetches from bedrock (claude AI) to transform the fun fact fetched from dynamo DB. Bedrock returns a witty fun fact and amplify displays it all.
+The user utilize AWS amplify to host the frontend side of the application and deployment of it. The user then clicks on the 'generate fun fact' button to trigger an api call through api gateway. Once api
+gateway receives the call , it triggers the event hosted by aws lambda. Lambda function fetches the data from dynamo DB. Lambda also fetches from bedrock (claude AI) to transform the fun fact fetched from
+dynamo DB. Bedrock returns a witty fun fact and amplify displays it all.
 
 <img width="1858" height="968" alt="image" src="https://github.com/user-attachments/assets/fcadf675-1e20-4eb9-9c11-823593dc66b3" />
 an example of the page on standby
