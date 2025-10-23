@@ -1,4 +1,5 @@
 # fun-fact-generator
+**Live Demo:** [View the app here](https://production.d12ioa7e1u5w1x.amplifyapp.com)
 Fun-Fact Generator is a cloud-based web application built with AWS serverless services—Lambda, API Gateway, Amplify, DynamoDB, and Amazon Bedrock. It generates witty cloud-themed fun facts on demand.
 
 The goal is to practice AWS architecture and service integration end-to-end. This implementation started as a learning project and was extended to handle region-specific Bedrock model/version differences (e.g., Claude model IDs and response formats) by adding small adaptations in the Lambda layer.
